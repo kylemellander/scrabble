@@ -1,0 +1,11 @@
+.jk-form input {
+  display:block;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.jk-score {
+  font-size: 25em;
+  text-align: center;
+  color:#7a1111;
+}
