@@ -8,4 +8,22 @@
   font-size: 25em;
   text-align: center;
   color:#7a1111;
+  font-family:Montserrat, sans-serif;
+}
+.jk-error {
+  color:red;
+}
+a.btn {
+  appearance:button;
+  background:#333;
+  color:#fff;
+  padding: 8px 12px;
+}
+a.btn:hover {
+  color:#fff;
+  background:#666;
+}
+h2 {
+  font-family:Montserrat, sans-serif;
+  font-size:4em;
 }

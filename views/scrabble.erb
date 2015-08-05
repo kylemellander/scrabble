@@ -1,2 +1,9 @@
+  <% if @error == 1 %>
+<h2>Scrabble score</h2>
+<h1 class="jk-error"><%= @score %></h1>
+  <% else %>
 <h2>Scrabble score for <%= @word %> is:</h2>
 <h1 class="jk-score"><%= @score %></h1>
+  <% end %>
+
+<a href="/" class="btn">Find the scrabble score of another word</a>
