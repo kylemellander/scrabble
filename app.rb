@@ -10,5 +10,8 @@ end
 get('/scrabble') do
   @word = params.fetch('word')
   @score = @word.scrabble()
+  if @word[/[a-z]+/] != @word
+    @error = 1
+  end
   erb(:scrabble)
 end
